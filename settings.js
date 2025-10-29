@@ -3,6 +3,7 @@
 
 var fs = require('fs');
 var path = require('path');
+var TEMPORARY_HASH = '$2a$10$iM.o3tHhY.100000000000000000000000000000000000000000000000000000';
 
 module.exports = {
     // Configuración general
@@ -16,10 +17,8 @@ module.exports = {
     adminAuth: {
         type: "credentials",
         users: [{
-            // Lee el nombre de usuario de la variable de entorno de Render
-            username: process.env.NODE_RED_USERNAME, 
-            // Lee el password de la variable de entorno de Render
-            password: process.env.NODE_RED_PASSWORD, 
+            username: "gjalcris", // Tu nombre de usuario
+            password: TEMPORARY_HASH, 
             permissions: "*"
         }]
     },
