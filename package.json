@@ -1,0 +1,19 @@
+{
+  "name": "node-red-mqtt-bridge",
+  "version": "1.0.0",
+  "description": "Puente MQTT a Google Sheets para ESP8266/PZEM004T",
+  "main": "node_modules/node-red/red.js",
+  "scripts": {
+    "start": "node node_modules/node-red/red.js -s settings.js"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-node-pushover": "~0.0.12",
+    "node-red-node-email": "~1.17.0",
+    "node-red-contrib-http-request": "~0.1.0",
+    "node-red-contrib-json": "~0.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
