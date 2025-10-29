@@ -14,6 +14,7 @@ module.exports = {
     uiPort: process.env.PORT || 1880,
 
     // Credenciales de acceso al editor (¡CRÍTICO para la seguridad!)
+    /*
     adminAuth: {
         type: "credentials",
         users: [{
@@ -22,6 +23,7 @@ module.exports = {
             permissions: "*"
         }]
     },
+    */
 
     // Deshabilita el auto-guardado en la nube (buena práctica en servicios efímeros)
     // Para guardar tus flujos, debes exportarlos/importarlos.
